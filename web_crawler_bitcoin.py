@@ -1,8 +1,9 @@
-from urllib.request import Request, urlopen
-from bs4 import BeautifulSoup as soup
-import re
 import random
+import re
 import time
+from urllib.request import Request, urlopen
+
+from bs4 import BeautifulSoup as soup
 
 url = "https://www.plus500.nl/Instruments/BTCUSD"
 req = Request(url, headers={"User-Agent": "Mozilla/5.0"})

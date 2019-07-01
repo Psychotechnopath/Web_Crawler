@@ -1,8 +1,7 @@
 from urllib.request import urlopen as uReq
-from bs4 import BeautifulSoup as soup
+
 import pandas as pd
-import time
-import random
+from bs4 import BeautifulSoup as soup
 
 df_recipes = pd.DataFrame(columns=['url','title', 'category'])
 
