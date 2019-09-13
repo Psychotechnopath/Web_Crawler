@@ -1,7 +1,8 @@
 # importing libraries
-from bs4 import BeautifulSoup
-import urllib.request
 import time
+import urllib.request
+
+from bs4 import BeautifulSoup
 
 url = "http://services.runescape.com/m=itemdb_oldschool/viewitem?obj="
 
